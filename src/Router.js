@@ -22,7 +22,7 @@ export const CustomStatusBar = ({
   const insets = useSafeAreaInsets();
   return (
     <LinearGradient
-      colors={[GRADIENT_1, GRADIENT_1]}
+      colors={["#FFAD33", "#FFAD33"]}
       start={[1, 1]}
       end={[0, 0]}
       location={[0.25, 0.7, 1]}

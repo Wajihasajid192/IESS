@@ -16,6 +16,7 @@ import back2 from "../Assets/back2.png";
 import smallpic from "../Assets/smallpic.png";
 import edit from "../Assets/edit.png";
 import about from "../Assets/about.png";
+import header from "../Assets/header.png";
 
 const Images = {
   minder: minder,
@@ -36,6 +37,7 @@ const Images = {
   smallpic: smallpic,
   edit: edit,
   about: about,
+  header: header,
 };
 
 export { Images };
