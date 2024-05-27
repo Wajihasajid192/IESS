@@ -172,10 +172,9 @@ export default function App() {
     !ralewayFontsLoaded ||
     !playfairDisplayFontsLoaded ||
     !poppinsFontsLoaded ||
-    !cabinFontsLoaded ||
-    !quicksandFontsLoaded
+    !cabinFontsLoaded
   ) {
-    return <AppLoading />;
+    return <Router />;
   }
   return <Router />;
 }
